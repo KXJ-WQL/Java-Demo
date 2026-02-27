@@ -1,0 +1,16 @@
+logging:
+  group:
+    mylogback: com.kxjlog
+  level:
+    root: info
+    mylogback: trace
+#  file:
+#    name: stringbootlog.log
+#  pattern:
+#    console: "%d %clr(%p){cyan} -- %clr([%16t]){blue} %clr([%m]){green} %n"
+#  logback:
+#    rollingpolicy:
+#      max-file-size: 2KB
+#      file-name-pattern: bootserver.%d{yyyy-MM-dd}.%i.log
+#      max-history: 7
+

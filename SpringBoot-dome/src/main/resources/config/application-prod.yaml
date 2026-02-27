@@ -1,0 +1,5 @@
+profiless:
+  name: prod 生产环境
+profilebean:
+  name: prod 生产环境
+  mess: profile条件装配

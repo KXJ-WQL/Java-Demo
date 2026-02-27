@@ -1,0 +1,67 @@
+rootProject.name = 'Gradle-Module-Demo'
+include 'Gradle-Subject1'
+include 'Gradle-Subject2'
+include 'wqlGradlePlugin'
+include 'Gradle-Subject1:Gradle-Subject3'
+findProject(':Gradle-Subject1:Gradle-Subject3')?.name = 'Gradle-Subject3'
+
+// 1.settingsEvaluated钩子函数，在settings.gradle解析后执行(初始化阶段)
+gradle.settingsEvaluated {
+    print "settings.gradle解析后执行settingsEvaluated钩子函数"
+}
+
+// 2.projectsLoaded钩子函数，在任务加载初始化完成后执行(初始化阶段)
+gradle.projectsLoaded {
+    print "所以任务加载初始化完成后执行projectsLoaded"
+}
+
+// 3.在每次执行某个项目的brforeEvaluate方法先给projectName变量赋值(配置阶段)
+def projectName = ""
+gradle.addProjectEvaluationListener(new ProjectEvaluationListener() {
+    @Override
+    void beforeEvaluate(Project project) {
+        projectName = project.name
+        println "$projectName 配置阶段前执行beforeEvaluate监听"
+    }
+
+    @Override
+    void afterEvaluate(Project project, ProjectState projectState) {
+        println "$projectName 配置阶段后执行afterEvaluate监听"
+    }
+})
+
+// 4.执行各个project的beforeProject(配置阶段)
+gradle.beforeProject {
+    println "$projectName 配置阶段前执行beforeProject方法"
+}
+
+// 5.执行各个project的afterProject(配置阶段)
+gradle.afterProject {
+    println "$projectName 配置阶段前执行afterProject方法"
+}
+
+// 6.所以工程的build.gradle配置执行完毕，回调Gradle对象的projectsEvaluated方法(配置阶段)
+def rootProjectName = rootProject.getName()
+gradle.projectsEvaluated {
+    println "${rootProjectName} 所以工程的build.gradle配置执行完毕调用projectsEvaluated"
+}
+
+// 7.配置阶段完毕后，回调TaskExecutionGraph对象的whenReady方法(配置阶段)
+gradle.taskGraph.whenReady {
+    println "${rootProjectName} 配置阶段完毕后，回调TaskExecutionGraph对象的whenReady方法"
+}
+
+// 8.在当前Task执行之前，回调TaskExecutionGraph对象的beforeTask方法(执行阶段)
+gradle.taskGraph.beforeTask {
+    println "在当前Task执行之前，回调TaskExecutionGraph对象的beforeTask方法"
+}
+
+// 9.在当前Task执行之后，回调TaskExecutionGraph对象的afterTask方法(执行阶段)
+gradle.taskGraph.afterTask {
+    println "在当前Task执行之后，回调TaskExecutionGraph对象的afterTask方法"
+}
+
+// 10.当所以Task执行完毕后，回调Gradle的buildFinish方法(执行阶段完成)
+gradle.buildFinished {
+    println "所以Task执行完毕后，回调Gradle的buildFinish方法"
+}

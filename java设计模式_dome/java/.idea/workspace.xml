@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4c13ea5-ae48-4c3c-b5ee-c2ec192e05ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Elasticsearch-Dome/Elasticsearch-Dome/src/main/java/com/ES/test/EsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Elasticsearch-Dome/Springboot-ES/src/main/java/com/eskxj/SpringbootES/config/ESRestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Elasticsearch-Dome/Springboot-ES/src/main/java/com/eskxj/SpringbootES/dao/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Elasticsearch-Dome/Springboot-ES/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Elasticsearch-Dome/Springboot-ES/src/main/resources/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Elasticsearch-Dome/Springboot-ES/src/test/java/com/eskxj/SpringbootES/EsRestHighLevelClientQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Elasticsearch-Dome/Springboot-ES/src/test/java/com/eskxj/SpringbootES/EsRestHighLevelClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IText-Dome/src/main/java/com/KxjIText/CreatePdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IText-Dome/src/main/java/com/KxjIText/PdfInvoiceFIill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-uaa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-uaa/src/main/java/com/kxj/securityoauth/KXJSecurityOAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/config/applicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/init/SpringApplicationInitalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/interceptor/SimpleAuthenticationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/pojo/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/pojo/authenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/service/AuthenticationServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/applicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/init/SpringApplicationInitalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/init/SpringSecurityApplicationInitalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/SecuritySpringBootApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebSecurityContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/controller/logincontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/dao/userDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/pojo/PessmissionPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/pojo/SecurityUserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/servicer/SpringDataUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/servicer/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/test/java/com/kxjsecurity/service/BcryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swagger-Dome/src/main/java/com/swg/controller/swaggertest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Swagger-Dome/src/main/java/com/swg/controller/swaggertest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Workcount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/f.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jvm/溢出.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/单例/fd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/单例/g.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/单例/text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/单例/text1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/工厂/text.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/zs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/设计模式/装饰者模式.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1V9acSQDU2KOr6HTODHePlzzJEw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="Workcount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workcount" />
+      <module name="java" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../lajiwj/wql.txt $PROJECT_DIR$/../lajiwj/out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="观察者" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="观察者" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="装饰者模式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.装饰者模式" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="text" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="text2" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textwq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textwq" />
+      <module name="java" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twq" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Workcount" />
+      <item itemvalue="Application.textwq" />
+      <item itemvalue="Application.twq" />
+      <item itemvalue="Application.text (1)" />
+      <item itemvalue="Application.text2" />
+      <item itemvalue="Application.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.text2" />
+        <item itemvalue="Application.text (1)" />
+        <item itemvalue="Application.twq" />
+        <item itemvalue="Application.textwq" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\wql\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4c13ea5-ae48-4c3c-b5ee-c2ec192e05ac" name="Default Changelist" comment="" />
+      <created>1576667843848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576667843848</updated>
+      <workItem from="1576667846548" duration="12591000" />
+      <workItem from="1576935872909" duration="5378000" />
+      <workItem from="1577622287168" duration="1695000" />
+      <workItem from="1578221424198" duration="292000" />
+      <workItem from="1578221763156" duration="32000" />
+      <workItem from="1578221992721" duration="91000" />
+      <workItem from="1578222131955" duration="115000" />
+      <workItem from="1578223091536" duration="80000" />
+      <workItem from="1578223245616" duration="78000" />
+      <workItem from="1580116204952" duration="849000" />
+      <workItem from="1591845454153" duration="8861000" />
+      <workItem from="1592224628197" duration="11716000" />
+      <workItem from="1592407478891" duration="8334000" />
+      <workItem from="1592751378894" duration="11122000" />
+      <workItem from="1592962460245" duration="730000" />
+      <workItem from="1593316520683" duration="10229000" />
+      <workItem from="1598247978981" duration="1430000" />
+      <workItem from="1663914119957" duration="549000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1663914128944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1663914128944" />
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom" timestamp="1663914668936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1663914668936" />
+    <state width="1493" height="153" key="GridCell.Tab.0.center" timestamp="1663914668936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1663914668936" />
+    <state width="1493" height="153" key="GridCell.Tab.0.left" timestamp="1663914668936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1663914668936" />
+    <state width="1493" height="153" key="GridCell.Tab.0.right" timestamp="1663914668936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1663914668936" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1663914608793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1663914608793" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/map$Workcount.ic" NAME="Workcount Coverage Results" MODIFIED="1576866595497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

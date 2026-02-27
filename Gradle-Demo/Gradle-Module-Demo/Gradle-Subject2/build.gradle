@@ -1,0 +1,118 @@
+import java.time.Duration
+
+plugins {
+    id 'java'
+    id 'application'
+
+}
+mainClassName = "com.example.Main"
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task taskQ{
+    doFirst { println "taskQ任务First执行" }
+    doLast { println "taskQ任务First执行" }
+}
+
+task dele(type: Delete){
+    delete buildDir
+}
+
+// 自定义任务类型
+class CustomTask extends DefaultTask{
+    @TaskAction
+    def doSelf(){
+        println "Task本身"
+    }
+}
+
+// 指定自定义类型创建task
+task mydefaultTask(type: CustomTask){
+    doFirst { println "mydefaultTask任务First执行" }
+    doLast { println "mydefaultTask任务First执行" }
+}
+
+// 任务的动态分配
+4.times {counter -> tasks.register("task$counter"){
+    doLast {
+        println "I'm task number $counter"
+    }
+}}
+tasks.named("task0"){dependsOn("task1","task2")}
+
+// 任务开启和关闭
+task closeAndOpenTask{
+    enabled false //关闭任务
+    doLast { println "closeAndOpenTask任务Last执行" }
+    doFirst { println "closeAndOpenTask任务First执行"}
+}
+
+// 任务超时
+task timeoutTask{
+    doLast {
+        Thread.sleep(1000)
+        println "timeoutTask任务Last执行"
+    }
+    timeout = Duration.ofMillis(500)
+}
+
+// 任务查找
+task wqlkxj{
+    doLast{ println "空想家"}
+}
+// 根据任务名查找,并在任务执行之前进行操作(在当前模块中查找)
+tasks.findByName("wqlkxj").doFirst {println "T1"}
+tasks.getByName("wqlkxj").doFirst {println "T2"}
+// 根据路径进行查找,并在任务执行之前进行操作(:Gradle-Subject2:wqlkxj表示查找Gradle-Subject2模块下的wqlkxj任务)
+tasks.findByPath(":Gradle-Subject2:wqlkxj")?.doFirst {println "T3"}
+tasks.getByPath(":Gradle-Subject2:wqlkxj")?.doFirst {println "T4"}
+
+// 添加规则
+task hellow{
+    doLast {
+        println "Hello WQL"
+    }
+}
+
+tasks.addRule("对规则的描述，便于调试查看"){
+    String taskName -> task(taskName){
+        doLast {
+            println "该${taskName}任务不存在，请查证后再执行！"
+        }
+    }
+}
+
+// 任务的onlyIf断言
+task onlyIFTask{
+    doLast { println "任务的onlyIf断言" }
+    // 属性没有携带fe就运行
+    onlyIf {!project.hasProperty("fe")}
+}
+
+// 默认任务
+tasks.register("hello1"){
+    doLast {
+        println "Hello1 WQL"
+    }
+}
+
+tasks.register("hello2"){
+    doLast {
+        println "Hello2 KXJ"
+    }
+}
+defaultTasks "hello1", "hello2"
+

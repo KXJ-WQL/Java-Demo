@@ -1,0 +1,10 @@
+ext {
+    company = "五昊"
+    cfgs = [
+            SdkVersion: "Java Version 17"
+    ]
+    spring = [version:"5.0.0"]
+}
+
+
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+    <!--通用配置项，文件地址-->
+    <property name="file" value="D://logback"></property>
+    <property name="log.pattern" value="%d{yyyy-MM-dd:HH:mm:ss.SSS} [%thread] %-5level  %msg%n"></property>
+
+    <!--配置ConsoleAppender控制台输出文件输出-->
+    <appender name="console_appender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--配置layout输出格式 - 动态打印输出MDC-->
+            <pattern>[%X{requestID:-NAN}]${log.pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <!--配置fileappender文件输出-->
+    <appender name="file_appender" class="ch.qos.logback.core.FileAppender">
+        <!--指定文件输出地址-->
+        <file>${file}/logback.log</file>
+        <!--是否进行追加 默认为true-->
+        <append>true</append>
+        <!--配置格式-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--配置layout格式-->
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <!--配置root根节点-->
+    <root level="info">
+        <!--引入appender-->
+        <appender-ref ref="console_appender"/>
+        <appender-ref ref="file_appender"/>
+    </root>
+</configuration>

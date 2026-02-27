@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5729f25d-3ff7-4ac3-b41a-fc4fd7a2c696" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ES/test/EsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-uaa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-uaa/src/main/java/com/kxj/securityoauth/KXJSecurityOAuth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/config/applicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/init/SpringApplicationInitalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/interceptor/SimpleAuthenticationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/pojo/UserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/pojo/authenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/java/com/kxjsecurity/springmvc/service/AuthenticationServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Session-dome/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/applicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/init/SpringApplicationInitalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Spring-SpringSecurity-Dome/src/main/java/com/kxjsecurity/init/SpringSecurityApplicationInitalizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/SecuritySpringBootApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/config/WebSecurityContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/controller/logincontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/dao/userDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/pojo/PessmissionPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/pojo/SecurityUserPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/servicer/SpringDataUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/java/com/kxjsecurity/servicer/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/test/java/com/kxjsecurity/service/BcryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Swagger-Dome/src/main/java/com/swg/controller/swaggertest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Swagger-Dome/src/main/java/com/swg/controller/swaggertest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2E6S11AiVXMe2rLhQBKa0mrv9ju" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/dang/ruo-yi-vue-r" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="EsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ES.test.EsClient" />
+      <module name="Elasticsearch-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ES.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EsClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5729f25d-3ff7-4ac3-b41a-fc4fd7a2c696" name="Default Changelist" comment="" />
+      <created>1661914321453</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661914321453</updated>
+      <workItem from="1661914324262" duration="3049000" />
+      <workItem from="1661917960956" duration="5938000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1661914887062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1661914887062" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1662080025433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1662080025433" />
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom" timestamp="1662080027221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1662080027221" />
+    <state width="1493" height="188" key="GridCell.Tab.0.center" timestamp="1662080027221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1662080027221" />
+    <state width="1493" height="188" key="GridCell.Tab.0.left" timestamp="1662080027221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1662080027221" />
+    <state width="1493" height="188" key="GridCell.Tab.0.right" timestamp="1662080027221">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="188" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1662080027221" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1661920122794">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1661920122794" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1661917960873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1661917960873" />
+  </component>
+</project>

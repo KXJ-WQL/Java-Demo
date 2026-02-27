@@ -1,0 +1,65 @@
+plugins {
+	id 'java'
+	id 'idea'
+	id 'java-library'
+	id 'org.springframework.boot' version '3.4.0' apply false // 当前根模块不使用
+	id 'io.spring.dependency-management' version "1.1.1"
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+// 全部项目（包含根项目和子项目）统一配置
+allprojects {
+	// 仓库配置（本地优先，阿里源作为加速器，其次中央仓库）
+	repositories {
+		mavenLocal() // 本地仓库
+		maven { name "Alibaba"; url 'https://maven.aliyun.com/repository/public'} // 阿里云公共仓库
+		mavenCentral() // 官方中央仓库
+		gradlePluginPortal() // 插件仓库
+	}
+
+	// 统一Java编译版本设置
+	java {
+		sourceCompatibility = JavaVersion.VERSION_17   // Java源代码兼容版本
+		targetCompatibility = JavaVersion.VERSION_17   // Java字节码生成版本
+	}
+}
+
+// 子项目统一配置
+subprojects {
+
+	// 应用基础插件
+	apply plugin: 'java'                          // Java编译插件
+	apply plugin: 'java-library'                   // Java库插件（用于区分api/implementation依赖）
+	apply plugin: 'idea'                           // IDEA相关插件（生成.iml文件等）
+	apply plugin: 'org.springframework.boot'       // Spring Boot支持插件
+	apply plugin: 'io.spring.dependency-management'// Spring官方依赖管理插件
+
+	// 集中管理版本号
+	ext {
+		lombokVersion = '1.18.32'                  // Lombok版本
+		springBootVersion = '3.4.0'                 // Spring Boot版本
+	}
+
+	// 统一的依赖管理(使用Spring Boot官方BOM)
+	dependencyManagement {
+		imports {
+			mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}" // 引入Spring Boot官方BOM进行依赖版本统一
+		}
+		// 自定义的统一版本依赖
+		dependencies {
+
+		}
+	}
+
+	// 配置测试任务使用JUnit5平台
+	tasks.named('test') {
+		useJUnitPlatform() // 启用JUnit5测试平台
+	}
+}
+
+// 配置Gradle Wrapper
+wrapper {
+	gradleVersion = '8.10' // 指定Gradle的版本（建议与本地IDE版本一致）
+	distributionType = 'ALL' // 下载完整版本（包括源码和文档）
+}

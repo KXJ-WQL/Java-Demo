@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11ffa4de-40ba-4bb0-ae90-8ee29af6f710" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/BeanMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/CarInheritConvertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/convert/CarConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/convert/CarConvertList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/convert/CarInheritConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/convert/CarMapConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/dto/CarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/dto/DriverDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/dto/PartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/vo/CarDriverVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/beans/w.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2FkwGkRyKZPLyh7PnaN1exShR1w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/dang/ruo-yi-vue-r" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="Application.BeanMapperTest">
+    <configuration name="BeanMapperTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beans.BeanMapperTest" />
+      <module name="MapStruct-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarInheritConvertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beans.CarInheritConvertTest" />
+      <module name="MapStruct-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beans.Test1" />
+      <module name="MapStruct-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beans.Test2" />
+      <module name="MapStruct-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.beans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BeanMapperTest" />
+        <item itemvalue="Application.CarInheritConvertTest" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11ffa4de-40ba-4bb0-ae90-8ee29af6f710" name="Default Changelist" comment="" />
+      <created>1665049295219</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665049295219</updated>
+      <workItem from="1665049298192" duration="9621000" />
+      <workItem from="1665130541187" duration="15076000" />
+      <workItem from="1665199388187" duration="24000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1665049494691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665049494691</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1665049529359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665049529359</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1665049410398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1665049410398" />
+    <state x="341" y="9" key="CommitChangelistDialog2" timestamp="1665049528390">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1665049528390" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1665199410529">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1665199410529" />
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1665160236537">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1665160236537" />
+    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1665160236537">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1665160236537" />
+    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1665160236536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1665160236536" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1665160236537">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1665160236537" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1665064418752">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1665064418752" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1665049667628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1665049667628" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1665199390940">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1665199390940" />
+    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1665049626648">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="564" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1665049626648" />
+    <state x="560" y="215" key="git4idea.merge.GitPullDialog" timestamp="1665049642307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="215" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1665049642307" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+profiless:
+  name: env 开发环境
+profilebean:
+  name: env 开发环境
+  mess: profile条件装配

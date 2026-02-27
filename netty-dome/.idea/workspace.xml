@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfe403f7-9b1f-4f58-8c07-f5c603fea759" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Canal-Dome/canal-maven-dome/canal-maven-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Canal-Dome/canal-maven-dome/src/main/java/com/kxjcanal/CanalClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Commect-Connections-Dome/Commect-Connections-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EasyExcel-Dome/easyexcel-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EasyExcel-Dome/src/main/java/com/excelpojo/WidthAndHeighpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Elasticsearch-Dome/Elasticsearch-Dome/Elasticsearch-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle-Demo/Boot-Gradle1/src/main/java/org/example/controller/reactiveStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle-Demo/Gradle-Module-Demo/Gradle-Subject1/Gradle-Subject3/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IText-Dome/IText-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Jcl-Dome/Jcl-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Jcl-Dome/src/main/java/com/kxj/jcldome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Jcl-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j-Dome/Log4j-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j-Dome/src/main/java/com/kxj/log4j/test/Log4jTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/Log4j2-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/src/main/java/com/kxjlog4j2/log4j2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/Slf4j-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/src/main/java/com/kxjslf4j/slf4jCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/java/com/kxjlog/springbootlog/config/MDCTaskDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/java/com/kxjlog/springbootlog/config/ThreadTaskPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/java/com/kxjlog/springbootlog/controller/MDCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/test/java/com/kxjlog/springbootlog/MDCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/MapStruct-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/BeanMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/CarInheritConvertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarConvertList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarInheritConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarMapConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/dto/CarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/dto/DriverDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/dto/PartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/vo/CarDriverVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/quartz-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CornTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CountJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/ExecutionJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyJobListerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyTriggerListenerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/SimpleTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/TriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyJobListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyTriggenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CornTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CountJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/ExecutionJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/HelloSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyJobListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyTriggerListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/SimpleTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/TriggerJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/DruidConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/HelloJobInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/QuartzJobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/DateSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/HelloQuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloQuartzJobBeanJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/FluxAndMonoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/block/BlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/buffer/FluxBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/error/ErrorHandlerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/error/TimeOutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/eventawareness/FluxEventDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/handler/HandlerFluxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/limit/FluxLimitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/log/ReactorLogDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/CollectApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/ConversionApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/FilterApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/dalayApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/scheduler/SchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/scheduler/SwitchThreadSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sequence/DynamicsCreateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sequence/FluxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sequence/MonoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sinks/SinksDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/subscribe/BuiltInSubscribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/subscribe/CustomizeSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/SpringBoot-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/control/profile_control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/pojo/LaserBullHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/resources/config/application-env.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/resources/config/application-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-OAuth2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-uaa/KXJ-Security-uaa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Session-dome/Session-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/controller/TemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/handler/LoginFailuseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/.idea/Springboot-SpringSecurity-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/Springboot-SpringSecurity-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thrift-Demo/Thrift-Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validation-demo/spring-validation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apachePoi-dome/apachePoi-Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apachePoi-dome/src/main/java/mypoi/util/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/code/MyMessageDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/myClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/myClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/myClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/myServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/myServerChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/myServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/protocoltcp/protocol/protocolMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tcp/myClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tcp/myClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tcp/myClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tcp/myServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tcp/myServerChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tcp/myServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MapStruct-Dome/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MapStruct-Dome/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/config/servletfilter_my.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/config/servletfilter_my.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/control/welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/control/welcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/springbootapplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/java/com/WQL/springbootapplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/resources/application.propertiess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/config/interceptor_coonfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/config/interceptor_coonfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/config/servletfilter_my.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/config/servletfilter_my.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/control/welcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/control/welcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/springbootapplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/springbootapplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/test/java/com/kxjsecurity/service/BcryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/test/java/com/kxjsecurity/service/BcryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/config/WebSecurityContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/config/WebSecurityContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/controller/logincontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/controller/logincontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/test-classes/com/kxjsecurity/service/BcryptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/test-classes/com/kxjsecurity/service/BcryptTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Swagger-Dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Swagger-Dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/netty-dome.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1tOnb3XgZDktACabG2RnPtlAr14" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Java-Dome/netty-dome/src/main/java/protocoltcp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Java-Dome\netty-dome\src\main\java\protocoltcp" />
+      <recent name="F:\Dome\netty-dome\src\main\java\protobuf_dome" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.protocoltcp.myClient">
+    <configuration name="ClientBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dubboRPC.consumer.ClientBootstrap" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dubboRPC.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp.myClient" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcp.myServer" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="protocoltcp.myClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="protocoltcp.myClient" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="protocoltcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="protocoltcp.myServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="protocoltcp.myServer" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="protocoltcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.myClient" />
+      <item itemvalue="Application.myServer" />
+      <item itemvalue="Application.protocoltcp.myClient" />
+      <item itemvalue="Application.protocoltcp.myServer" />
+      <item itemvalue="Application.ClientBootstrap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.protocoltcp.myClient" />
+        <item itemvalue="Application.protocoltcp.myServer" />
+        <item itemvalue="Application.myClient" />
+        <item itemvalue="Application.myServer" />
+        <item itemvalue="Application.ClientBootstrap" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfe403f7-9b1f-4f58-8c07-f5c603fea759" name="Default Changelist" comment="" />
+      <created>1622649070813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622649070813</updated>
+      <workItem from="1622649073737" duration="52467000" />
+      <workItem from="1623076484220" duration="13669000" />
+      <workItem from="1623424279045" duration="1495000" />
+      <workItem from="1623462611582" duration="14354000" />
+      <workItem from="1623978522242" duration="237000" />
+      <workItem from="1625670583435" duration="2192000" />
+      <workItem from="1625749983201" duration="3191000" />
+      <workItem from="1625891851262" duration="6714000" />
+      <workItem from="1626017218656" duration="15000" />
+      <workItem from="1633782469314" duration="776000" />
+      <workItem from="1724117447185" duration="7354000" />
+      <workItem from="1735465458273" duration="9989000" />
+      <workItem from="1735490896292" duration="49000" />
+      <workItem from="1750128632427" duration="639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/netty_dome$server_netty.ic" NAME="server_netty Coverage Results" MODIFIED="1622821414466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dome1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/netty_dome$client_chat_netty.ic" NAME="client_chat_netty Coverage Results" MODIFIED="1623067178068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>char_room.*</FILTER>
+    </SUITE>
+  </component>
+</project>

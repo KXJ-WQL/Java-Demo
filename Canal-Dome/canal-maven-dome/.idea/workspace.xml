@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cee72e1-611d-4ae7-a556-b9b0c544ba5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kxjcanal/CanalClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/BeanMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/CarInheritConvertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarConvertList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarInheritConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarMapConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/dto/CarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/dto/DriverDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/dto/PartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/vo/CarDriverVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CornTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CountJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/ExecutionJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyJobListerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyTriggerListenerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/SimpleTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/TriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyJobListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyTriggenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CornTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CountJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/ExecutionJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/HelloSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyJobListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyTriggerListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/SimpleTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/TriggerJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/DruidConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/HelloJobInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/QuartzJobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/DateSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/HelloQuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloQuartzJobBeanJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/resources/quartz.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MapStruct-Dome/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MapStruct-Dome/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2GWHTauC4UniDnYLbOQl6UpIOHi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/网页收藏项目/WebPageCollect" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="CanalClientMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kxjcanal.CanalClientMain" />
+      <module name="canal-maven-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxjcanal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CanalClientMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cee72e1-611d-4ae7-a556-b9b0c544ba5d" name="Default Changelist" comment="" />
+      <created>1666497427458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666497427458</updated>
+      <workItem from="1666497429761" duration="12209000" />
+      <workItem from="1666679518117" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1666498221111">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1666498221111" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1666679530057">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1666679530057" />
+    <state width="1493" height="316" key="GridCell.Tab.0.bottom" timestamp="1666540716985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1666540716985" />
+    <state width="1493" height="316" key="GridCell.Tab.0.center" timestamp="1666540716985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1666540716985" />
+    <state width="1493" height="316" key="GridCell.Tab.0.left" timestamp="1666540716985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1666540716985" />
+    <state width="1493" height="316" key="GridCell.Tab.0.right" timestamp="1666540716985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="316" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1666540716985" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1666532552368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1666532552368" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1666679521561">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1666679521561" />
+  </component>
+</project>

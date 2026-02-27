@@ -1,0 +1,36 @@
+server:
+  port: 9210
+spring:
+  application:
+    name: seata-order
+  datasource:
+    username: root
+    password: 123456789
+    url: jdbc:mysql://192.168.68.134:3306/seata_order?useUnicode=true&characterEncoding=utf8
+    driver-class-name: org.gjt.mm.mysql.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.68.134:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
+seata: #配置seata
+  type: nacos
+  registry: #注册中心配置
+    nacos:
+      server-addr: 192.168.68.134:8848 #nacos的服务地址
+      application: seata-server #seata在nacos中的服务名
+      username: nacos #nacos的用户名
+      password: nacos #nacos密码
+      group: SEATA_GROUP #seata服务所在的分组名称
+      cluster: default
+  config:
+    type: nacos
+    nacos:
+      server-addr: 192.168.68.134:8848 #nacos的服务地址
+      username: nacos #nacos的用户名
+      password: nacos #nacos密码
+      group: SEATA_GROUP #seata配置所在的分组名称
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

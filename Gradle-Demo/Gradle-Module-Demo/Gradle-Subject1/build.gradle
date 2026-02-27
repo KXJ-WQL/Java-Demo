@@ -1,0 +1,184 @@
+//buildscript {
+//    // 公共版本号
+//    ext {
+//        version = "2.4.1"
+//    }
+//    // 配置仓库
+//    repositories {
+//        google()
+//        jcenter()
+//    }
+//
+//    // 引入插件
+//    dependencies {
+//        classpath("org.springframework.boot:spring-boot-gradle-plugin:$version")
+//    }
+//}
+
+plugins {
+    id 'java'
+}
+
+ext {
+    libraryVersion = "1.2.3"
+}
+
+// 应用插件
+//apply plugin: "org.springframework.boot"
+
+// apply具名参数导入plugins内置核心插件
+apply(plugin: 'java-library')
+apply plugin: 'java-library' // groovy简写方法调用
+// apply闭包方式
+apply {
+    plugin 'java-library'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // 测试编译和运行类型依赖
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    // 测试运行类型依赖
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // 本地依赖：通过文件集合的方式
+    implementation files("lib/mysql.jar",["lib/log4j.jar"])
+    // 本地依赖：通过文件树的方式
+    implementation fileTree("lib/"){include "**/*.jar"}
+    // 项目依赖
+    implementation project(":Gradle-Subject2")
+    // 远程依赖：简化写法
+    implementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    // 远程依赖：标准写法
+    implementation group: 'org.junit.jupiter', name:'junit-jupiter-api', version:'5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task taskA{
+    doFirst { println "taskA任务First执行"}
+    doLast { println "taskA任务Last执行"}
+}
+
+task taskB{
+    dependsOn = [taskA]
+    doFirst { println "taskB任务First执行"}
+    doLast { println "taskB任务Last执行"}
+}
+
+// 参数方式依赖：dependsOn后面用冒号
+task taskC(dependsOn:["taskA","taskB"]){
+    doFirst { println "taskC任务First执行"}
+    doLast { println "taskC任务Last执行"}
+}
+
+// 内部依赖
+task taskD {
+    //内部依赖：dependsOn后面使用=号
+    dependsOn = ["taskA"]
+    doFirst { println "taskD任务First执行"}
+    doLast { println "taskD任务Last执行"}
+}
+
+// 外部依赖
+task taskE {
+    doFirst { println "taskE任务First执行"}
+    doLast { println "taskE任务Last执行"}
+}
+taskE.dependsOn(taskA) // 外部声明依赖
+
+// 跨模块依赖
+task taskF {
+    doFirst { println "taskF任务First执行" }
+    doLast { println "taskF任务Last执行" }
+}
+//taskE.dependsOn(":Gradle-Subject2:taskQ") // 外部声明跨模块依赖，依赖Gradle-Subject2模块中的taskQ
+
+// finalizedBy任务后置执行
+task taskH {
+    doFirst { println "taskH任务First执行"}
+    doLast { println "taskH任务Last执行"}
+}
+
+task taskI {
+    finalizedBy(taskH) // taskI执行完成只会后置执行taskH
+    doFirst { println "taskI任务First执行"}
+    doLast { println "taskI任务Last执行"}
+}
+
+// task 文件操作
+task fileTask{
+    doFirst {
+        // 使用相对路径
+        File configFile = file('./conf.xml')
+        configFile.createNewFile() // 创建文件
+        // 使用相对路径
+        configFile = file('D:\\config.xml')
+        println configFile.createNewFile() // 创建文件
+        // 使用一个文件对象
+        configFile = file('src/config.xml')
+        println configFile.exists() //文件是否存在
+        println configFile.getAbsoluteFile() //文件绝对路径
+        println configFile.getParent() //文件父路径
+        println configFile.isFile() //是否为普通文件
+        println configFile.isDirectory() //是否为目录
+    }
+}
+
+// task 文件集合操作
+task filesTask {
+
+   FileCollection fileCollection = files("./text1.xml", [ './text2.xml', './text3.xml'])
+   fileCollection.forEach {item -> {
+       println item.createNewFile()
+   }}
+}
+
+// task 文件树操作
+task fileTreeTask {
+
+    def tree = fileTree("./")
+
+    println "---------------- 遍历当前目录下的所有文件"
+    tree.forEach {println it.name}
+
+    println "---------------- 遍历文件数包括目录"
+    tree.visit {println it.name}
+
+    println "---------------- 遍历当前目录下的其它文件(排除java文件)"
+    tree.exclude("**/*.java").each {println it.name}
+
+    println "---------------- 遍历当前目录下的java文件"
+    tree.include("**/*.java").each {println it.name}
+}
+
+// 文件拷贝
+task copyFile(type: Copy){
+    from "./"
+    into './dest'
+    include "**/*.xml"
+    rename { fileName -> fileName.replace('text1', 'prod')}
+}
+
+// 文件归档zip
+task fileZip(type: Zip){
+    archiveFileName = "myzip.zip" // 归档压缩名
+    destinationDirectory =  file("./arch") // 保存路径
+    from "./" // 归档源目录
+    include "**/*.java" // 只归档java文件
+}
+
+// 文件归档tar
+task fileTar(type: Tar){
+    archiveFileName = "mytar.tar" // 归档压缩名
+    destinationDirectory = file("./arch") //保存路径
+    from "./" // 归档源文件
+    extension "**/*.java" // 排除java文件
+}

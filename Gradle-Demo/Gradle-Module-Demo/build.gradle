@@ -1,0 +1,239 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+apply plugin: "maven-publish"
+
+// 发布配置
+publishing {
+    // 配置发布物信息
+    publications {
+        myLibary(MavenPublication){ // 自定义发布名称
+            groupId = "com.example" // 组织ID
+            artifactId = "mylibrary" // 库名
+            version = "1.0.0" // 版本号
+            from components.java // 主要针对Java组件(发布Jar包)
+            // from components.web // 引入war插件，发布war包
+        }
+    }
+    // 配置发布仓库
+    repositories {
+        // 发布到本地仓库位于USER_HOME/.m2/repository
+        mavenLocal()
+        // 发布项目到私服中
+//        maven {
+//            name = "myRepo" // name属性可选，表示仓库名称，url必填
+//            // 发布地址：可以是本地仓库或Maven私服仓库
+//            def releasesRepoUrl = layout.buildDirectory.dir("repos/releases")
+//            def snapshotsRepoUrl = layout.buildDirectory.dir("repos/snapshots")
+//            url = version.endsWith("SNAPSHOT") ? releasesRepoUrl : snapshotsRepoUrl
+//            //认证信息
+//            credentials{
+//                username = 'myUser'
+//                password = "123"
+//            }
+//        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    task("namess"){
+        print "所有模块通用任务: $project.name"
+    }
+}
+
+subprojects {
+    apply plugin: "java-library"
+    dependencies {
+        implementation 'org.apache.commons:commons-lang3:3.12.0' // 统一依赖
+    }
+    tasks.register("hello"){
+        doLast {
+            print "Hello from $project.name"
+        }
+    }
+}
+
+project("Gradle-Subject1"){
+    tasks.register("hellos"){
+        doLast {
+            print "Hello from $project.name"
+        }
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+/*
+* 任务的基本定义方式(由于groovy在方法参数上有很多语法糖，所有Task task(String var1, Closure var2)有三种不同写法)
+*  1.任务名称，闭包都作为参数
+*  2.闭包作为最后一个参数可以直接从括号中拿出来
+*  3.Groocy语法支持省略方法括号
+*/
+// 语法1：任务名称，闭包都作为参数
+task ('A',{
+    group "abc"
+    // 配置段
+    println "Configuration配置项 -- A"
+    // 任务执行
+    doFirst { println "A任务First执行"}
+    doLast { println "A任务Last执行"}
+})
+
+// 语法2：闭包作为最后一个参数可以直接从括号中拿出来
+task("B"){
+    // 配置段
+    println "Configuration配置项 -- B"
+    // 任务执行
+    doFirst { println "B任务First执行"}
+    doLast { println "B任务Last执行"}
+}
+
+// 语法3：Groocy语法支持省略方法括号
+task C {
+    // 配置段
+    println "Configuration配置项 -- C"
+    // 任务执行
+    doFirst { println "C任务First执行"}
+    doLast { println "C任务Last执行"}
+}
+
+// 定义方式2：Map定义
+def map = new HashMap<String, Object>();
+map.put("action",{println "D任务的Action运行"})
+task(map, "D")
+
+// 定义方式3；Map+闭包定义
+def mapE = new HashMap<String, Object>();
+mapE.put("action",{println "E任务的Action运行"})
+task(mapE, "E"){
+    // 任务执行
+    doFirst { println "E任务First执行"}
+    doLast { println "E任务Last执行"}
+}
+
+def mapA = new HashMap<String, Object>();
+mapA.put("action",{println "任务的Action运行"})
+
+task (mapA,"task1") {
+    // 配置段
+    println "Configuration配置项"
+    // 任务执行(内部声明)
+    doFirst { println "任务First执行"}
+    doLast { println "任务Last执行"}
+}
+
+// 外部声明
+task1.doFirst{ println "任务First执行 -- Outer" }
+task1.doLast{ println "任务First执行 -- Outer" }
+task1.doFirst{ println "任务First执行 -- Outer1" }
+task1.doLast{ println "任务First执行 -- Outer1" }
+
+// tasks的create()创建
+tasks.create("taskF"){
+    // 任务执行(内部声明)
+    doFirst { println "taskF任务First执行"}
+    doLast { println "taskF任务Last执行"}
+}
+// tasks的register()创建
+tasks.register("taskH"){
+    // 任务执行(内部声明)
+    doFirst { println "taskH任务First执行"}
+    doLast { println "taskH任务Last执行"}
+}
+
+/*
+ * 创建任务时指定属性：
+ *  1.参数中指定属性
+ *  2.内部指定属性
+ *  3.外部指定属性
+ */
+// 参数在指定属性
+task taskO(group:"kxj",description:"任务描述信息"){
+    doFirst { println "taskO任务First执行"}
+    doLast { println "taskO任务Last执行"}
+}
+// 内部指定属性
+task taskY{
+    group("WQL")
+    description("任务描述信息")
+    doFirst { println "taskY任务First执行"}
+    doLast { println "taskY任务Last执行"}
+}
+//外部指定属性
+task taskX{
+    doFirst { println "taskX任务First执行" }
+    doLast { println "taskX任务Last执行" }
+}
+taskX.group = "WQL"
+taskX.description = "任务描述信息"
+
+apply from : "version.gradle"
+task taskUU{
+    doFirst { println "名称：$company - 版本：$cfgs.SdkVersion" }
+}
+
+// 自定义插件实现Plugin插件接口
+class GreetingPlugin implements Plugin<Project>{
+
+    @Override
+    void apply(Project target) {
+        target.task("helloA"){
+            doLast {
+                print "Hello from the GreetingPlugin"
+            }
+        }
+    }
+}
+// 引入自定义插件
+apply plugin: GreetingPlugin
+
+// 插件拓展对象
+abstract class metaWPluginExtension{
+    abstract Property<String> getMessage();
+    metaWPluginExtension(){
+        message.convention("Hello from plugins")
+    }
+}
+
+class metaWPlugin implements Plugin<Project>{
+
+    @Override
+    void apply(Project target) {
+        // 添加外部插件拓展对象(拓展对外部可以修改值)
+        def extesion = target.extensions.create("greeing", metaWPluginExtension)
+        // 创建任务使用拓展对象
+        target.task("helloB"){
+            doLast {
+                println extesion.message.get()
+            }
+        }
+    }
+}
+
+// 引入自定义插件
+apply plugin: metaWPlugin
+
+// 修改拓展对象的值
+greeing.message = "WQL "
+
+// 引入buildSrc插件
+apply plugin: "com.wql.text"

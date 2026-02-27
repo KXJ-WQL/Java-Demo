@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e81ecab3-05ff-4f96-b100-ffa24a44030b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Canal-Dome/canal-maven-dome/src/main/java/com/kxjcanal/CanalClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Jcl-Dome/src/main/java/com/kxj/jcldome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Jcl-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Log4j-Dome/src/main/java/com/kxj/log4j/test/Log4jTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Log4j-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Log4j2-Dome/src/main/java/com/kxjlog4j2/log4j2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Log4j2-Dome/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Log4j2-Dome/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Slf4j-Dome/src/main/java/com/kxjslf4j/slf4jCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Slf4j-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/Slf4j-Dome/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Log-Dome/springbootlog/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/BeanMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/CarInheritConvertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarConvertList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarInheritConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/convert/CarMapConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/dto/CarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/dto/DriverDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/dto/PartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/vo/CarDriverVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MapStruct-Dome/src/main/java/com/beans/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CornTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CountJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/ExecutionJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyJobListerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyTriggerListenerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/SimpleTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/TriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyJobListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyTriggenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CornTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CountJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/ExecutionJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/HelloSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyJobListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyTriggerListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/SimpleTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/TriggerJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/DruidConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/HelloJobInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/QuartzJobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/DateSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/HelloQuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloQuartzJobBeanJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quartz-Dome/springboot-quartz-dome/src/main/resources/quartz.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MapStruct-Dome/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MapStruct-Dome/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kxjsecurity/service/BcryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kxjsecurity/service/BcryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kxjsecurity/config/WebSecurityContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxjsecurity/config/WebSecurityContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kxjsecurity/controller/logincontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kxjsecurity/controller/logincontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/kxjsecurity/service/BcryptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/kxjsecurity/service/BcryptTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="Production" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2DHp1GiaLsMlKSpr6NjVDA4EcCl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Dome\SpringSecurity-dome\Springboot-SpringSecurity-Dome\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BcryptTest.hh">
+    <configuration name="BcryptTest.bcrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Springboot-SpringSecurity-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxjsecurity.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kxjsecurity.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kxjsecurity.service.BcryptTest" />
+      <option name="METHOD_NAME" value="bcrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BcryptTest.h" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Springboot-SpringSecurity-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxjsecurity.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kxjsecurity.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kxjsecurity.service.BcryptTest" />
+      <option name="METHOD_NAME" value="h" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BcryptTest.hh" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Springboot-SpringSecurity-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxjsecurity.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kxjsecurity.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kxjsecurity.service.BcryptTest" />
+      <option name="METHOD_NAME" value="hh" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecuritySpringBootApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Springboot-SpringSecurity-Dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kxjsecurity.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kxjsecurity.SecuritySpringBootApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BcryptTest.hh" />
+        <item itemvalue="Spring Boot.SecuritySpringBootApp" />
+        <item itemvalue="JUnit.BcryptTest.h" />
+        <item itemvalue="JUnit.BcryptTest.bcrypt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e81ecab3-05ff-4f96-b100-ffa24a44030b" name="Default Changelist" comment="" />
+      <created>1660365647511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660365647511</updated>
+      <workItem from="1660365649971" duration="19541000" />
+      <workItem from="1660476903204" duration="21212000" />
+      <workItem from="1660655977617" duration="9000" />
+      <workItem from="1660793573379" duration="12977000" />
+      <workItem from="1661095547105" duration="57000" />
+      <workItem from="1670511640917" duration="1332000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1670512981376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1670512981376" />
+    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1670512981376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1670512981376" />
+    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1670512981376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1670512981376" />
+    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1670512981376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1670512981376" />
+  </component>
+</project>

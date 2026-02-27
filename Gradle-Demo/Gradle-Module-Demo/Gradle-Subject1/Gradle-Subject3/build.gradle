@@ -1,0 +1,62 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+ext{
+    appVersion = "1.0.0" // 定义应用版本
+    compileSdk = 33 // 定义编译SDK版本
+    dependenciesVersion = [
+            gson: "2.8.9",
+            retrofit: "2.9.0"
+    ]
+}
+
+tasks.create("extTest"){
+    println( "应用版本: ${appVersion} 编译版本: ${compileSdk} gson版本: ${dependenciesVersion.gson}" )
+}
+
+tasks.create("rootExtTest"){
+    println( "应用版本: ${libraryVersion}" )
+}
+
+repositories {
+//    // 本地某个目录中查找
+//    maven{ url:"file://D:repos/mavenrepos3.5.4"}
+//    // 本地maven仓库中查找
+//    mavenLocal()
+//    // 去镜像仓库中查找(阿里源)
+//    maven {name:"Alibaba"; url:"https:maven.aliyun.com/repository/public"}
+    // Maven中央仓库
+    mavenCentral()
+    // Google仓库
+    google()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+// 指定使用什么版本的JDK语法编译源代码，跟编译环境有关，在有java插件时才能用
+sourceCompatibility = 1.8
+// 指定生成特定于某个JDK版本的class文件，跟运行环境有关，在有java插件时才能用
+targetCompatibility = 1.8
+// 业务编码字符集，这是指定源码解码的字符集[编译器]
+compileJava.options.encoding "UTF-8"
+// 测试编码字符集，这是指定测试源码解码的字符集[编译器]
+compileTestJava.options.encoding "UTF-8"
+// 编译JAVA文件时采用UTF-8，注意这是指定源码编码的字符集
+tasks.withType(JavaCompile){
+    options.encoding = "UTF-8"
+}
+// 编译JAVA说明文件时采用UTF-8，注意这是指定源码编码的字符集
+tasks.withType(Javadoc){
+    options.encoding = "UTF-8"
+}

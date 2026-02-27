@@ -1,0 +1,35 @@
+plugins {
+    id 'java'   // 应用 Java 插件，允许编译 Java 代码
+    id 'groovy' // 应用 Groovy 插件，允许编译 Groovy 代码
+    id 'maven-publish' // 启用 Maven 发布插件，用于将构建产物发布到 Maven 仓库
+}
+
+repositories {
+    mavenCentral() // 使用 Maven Central 仓库，提供 Java 及 Groovy 相关依赖
+    google()       // 使用 Google Maven 仓库（通常用于 Android 开发）
+}
+
+dependencies {
+    implementation gradleApi()   // 依赖 Gradle API，适用于 Gradle 插件开发
+    implementation localGroovy() // 依赖 Gradle 自带的 Groovy 版本，确保 Groovy 版本与 Gradle 兼容
+}
+
+sourceSets {
+    main {
+        groovy {
+            srcDir "src/main/groovy" // 指定 Groovy 代码的目录
+        }
+    }
+}
+
+publishing {
+    publications {
+        // 本地发布
+        myLibrary(MavenPublication) { // 定义名为 "myLibrary" 的 Maven 发布配置
+            group = "com.wql.kxjplugin" // 指定 Group ID（组织 ID），用于唯一标识库
+            artifactId = 'library' // 指定 Artifact ID（库 ID），即发布的包名称
+            version = "1.0" // 指定版本号
+            from components.java // 以 Java 组件的形式发布 JAR 包
+        }
+    }
+}

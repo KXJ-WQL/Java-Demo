@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" monitorInterval="5">
+
+    <properties>
+        <property name="logDir">F://log4j2-test</property>
+
+    </properties>
+
+    <!--配置appender-->
+    <Appenders>
+        <!--ConsoleAppender 输出控制台-->
+        <Console name="consoleAppender" target="SYSTEM_ERR">
+            <!--日志格式输出-->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] [%-5level] %c{36}:%L --- %m%n"/>
+        </Console>
+
+        <!--配置文件输出-->
+        <File name="fileAppender" fileName="${logDir}//log4j2.log">
+            <!--日志格式输出-->
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] [%-5level] %c{36}:%L --- %m%n"/>
+        </File>
+
+        <RollingFile name="roolingFile" fileName="${logDir}/rollog.log"
+                                        filePattern="${logDir}/$${date:yyyy-MM-dd}/rollog-%d{yyyy-MM-dd-HH-mm}-%i.log">
+            <Policies>
+                <!--在系统启动时，触发拆分规则，产生一个日志文件-->
+                <OnStartupTriggeringPolicy/>
+
+                <!--按照文件的大小进行拆分-->
+                <SizeBasedTriggeringPolicy size="10kb"/>
+
+                <!--按照时间节点进行拆分，拆分规则就是filePattern-->
+                <TimeBasedTriggeringPolicy/>
+            </Policies>
+
+            <!--在同一目录下，文件的个数限制，如果超过设置的数组，则根据时间进行覆盖，新的覆盖旧的-->
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+        <!--配置异步日志-->
+        <Async name="myAsync">
+            <!--将控制台输出做异步操作处理-->
+            <AppenderRef ref="consoleAppender"/>
+        </Async>
+
+
+
+    </Appenders>
+
+    <!--配置logger-->
+    <Loggers>
+        <!--AsyncLogger混合配置，-->
+        <AsyncLogger name="com.kxjlog4j2" level="trace" includeLocation="false" additivity="false">
+
+            <!--将控制台输出consoleAppender设置为异步-->
+            <AppenderRef ref="consoleAppender"/>
+
+        </AsyncLogger>
+        
+    <!--配置rootlogger-->
+    <Root level="trace">
+        <!--引用Appender-->
+<!--        <AppenderRef ref="consoleAppender"/>-->
+    </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b8f51c6-4633-4039-8525-a1754aeb9f0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Canal-Dome/canal-maven-dome/canal-maven-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Canal-Dome/canal-maven-dome/src/main/java/com/kxjcanal/CanalClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Commect-Connections-Dome/Commect-Connections-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EasyExcel-Dome/easyexcel-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EasyExcel-Dome/src/main/java/com/excelpojo/WidthAndHeighpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Elasticsearch-Dome/Elasticsearch-Dome/Elasticsearch-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle-Demo/Boot-Gradle1/src/main/java/org/example/controller/reactiveStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Gradle-Demo/Gradle-Module-Demo/Gradle-Subject1/Gradle-Subject3/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../IText-Dome/IText-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Jcl-Dome/Jcl-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Jcl-Dome/src/main/java/com/kxj/jcldome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Jcl-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j-Dome/Log4j-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j-Dome/src/main/java/com/kxj/log4j/test/Log4jTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/Log4j2-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/src/main/java/com/kxjlog4j2/log4j2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Log4j2-Dome/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/Slf4j-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/src/main/java/com/kxjslf4j/slf4jCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/Slf4j-Dome/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/java/com/kxjlog/springbootlog/config/MDCTaskDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/java/com/kxjlog/springbootlog/config/ThreadTaskPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/java/com/kxjlog/springbootlog/controller/MDCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Log-Dome/springbootlog/src/test/java/com/kxjlog/springbootlog/MDCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/MapStruct-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/BeanMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/CarInheritConvertTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarConvertList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarInheritConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/convert/CarMapConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/dto/CarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/dto/DriverDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/dto/PartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/vo/CarDriverVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapStruct-Dome/src/main/java/com/beans/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/quartz-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CornTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/CountJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/ExecutionJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyJobListerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/MyTriggerListenerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/SimpleTriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/jobs/TriggerJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyJobListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/listener/MyTriggenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CornTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/CountJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/ExecutionJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/HelloSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyJobListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/MyTriggerListenerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/SimpleTriggerDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/quartz-dome/src/main/java/com/kxj/main/TriggerJobDome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/DruidConnectionProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/HelloJobInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/Jobrun/QuartzJobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/DateSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/HelloQuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/conf/QuartzConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/java/com/kxj/myquartz/jobs/HelloQuartzJobBeanJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quartz-Dome/springboot-quartz-dome/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/FluxAndMonoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/block/BlockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/buffer/FluxBufferDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/error/ErrorHandlerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/error/TimeOutDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/eventawareness/FluxEventDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/handler/HandlerFluxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/limit/FluxLimitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/log/ReactorLogDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/CollectApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/ConversionApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/FilterApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/operationapi/dalayApiDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/scheduler/SchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/scheduler/SwitchThreadSchedulerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sequence/DynamicsCreateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sequence/FluxDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sequence/MonoDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/sinks/SinksDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/subscribe/BuiltInSubscribe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Reactor-Demo/src/main/java/com/reactor/demo/subscribe/CustomizeSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SpringBoot-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WQL/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WQL/control/profile_control.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/WQL/pojo/LaserBullHole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/application-env.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/application-prod.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-OAuth2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/KXJ-Security-OAuth2.0/KXJ-Security-uaa/KXJ-Security-uaa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Session-dome/Session-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/controller/AuthorizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/controller/AuthorizeMethodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/controller/BankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/controller/TemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/handler/LoginFailuseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/handler/LoginSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/java/com/example/springsecuritybasedemo/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/SpringSecurity6-Demo/SpringSecurity-Base-Demo/src/main/resources/templates/error/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/.idea/Springboot-SpringSecurity-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/Springboot-SpringSecurity-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thrift-Demo/Thrift-Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validation-demo/spring-validation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apachePoi-dome/apachePoi-Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apachePoi-dome/src/main/java/mypoi/util/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/code/MyMessageDecode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/myClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/myClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/myClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/myServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/myServerChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/myServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/protocoltcp/protocol/protocolMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/tcp/myClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/tcp/myClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/tcp/myClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/tcp/myServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/tcp/myServerChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../netty-dome/src/main/java/tcp/myServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MapStruct-Dome/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MapStruct-Dome/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WQL/config/servletfilter_my.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WQL/config/servletfilter_my.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WQL/control/welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WQL/control/welcome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/WQL/springbootapplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/WQL/springbootapplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.propertiess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WQL/config/interceptor_coonfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WQL/config/interceptor_coonfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WQL/config/servletfilter_my.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WQL/config/servletfilter_my.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WQL/control/welcome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WQL/control/welcome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/WQL/springbootapplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/WQL/springbootapplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/test/java/com/kxjsecurity/service/BcryptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/src/test/java/com/kxjsecurity/service/BcryptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/config/WebSecurityContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/config/WebSecurityContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/controller/logincontroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/classes/com/kxjsecurity/controller/logincontroller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/test-classes/com/kxjsecurity/service/BcryptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringSecurity-dome/Springboot-SpringSecurity-Dome/target/test-classes/com/kxjsecurity/service/BcryptTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Swagger-Dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Swagger-Dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java设计模式_dome/java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../netty-dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../netty-dome/target/classes/META-INF/netty-dome.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-map" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="XML Properties File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="20S3N14r2MuhuBAvXghZdApgHVx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Java-Dome/Spring-dome",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "7f48503d247e2aa4b94c9f0a0687cec1",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Java-Dome\SpringBoot-dome\src\main\resources" />
+      <recent name="G:\Java-Dome\SpringBoot-dome\src\main\resources\config" />
+      <recent name="F:\Java-Dome\SpringBoot-dome\src\main\resources\templates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.WQL.pojo" />
+      <recent name="com.WQL.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Java-Dome\SpringBoot-dome\src\main\java\com\WQL\pojo" />
+      <recent name="F:\Dome\SpringBoot-dome\src\main\resources\fq" />
+      <recent name="F:\Dome\SpringBoot-dome\src\main\resources\META-INF\resources" />
+      <recent name="F:\Dome\SpringBoot-dome\src\main\resources\static" />
+      <recent name="F:\Dome\SpringBoot-dome\src\main\resources\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.springbootapplication">
+    <configuration name="CompletableFutrueTest.testAllOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-dome" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutrueTest" />
+      <option name="METHOD_NAME" value="testAllOf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutrueTest.testAnyOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-dome" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutrueTest" />
+      <option name="METHOD_NAME" value="testAnyOf" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutrueTest.testComplete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-dome" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutrueTest" />
+      <option name="METHOD_NAME" value="testComplete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompletableFutrueTest.testHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-dome" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompletableFutrueTest" />
+      <option name="METHOD_NAME" value="testHandle" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="springbootapplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringBoot-dome" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.WQL.springbootapplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.WQL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.springbootapplication" />
+        <item itemvalue="JUnit.CompletableFutrueTest.testAnyOf" />
+        <item itemvalue="JUnit.CompletableFutrueTest.testAllOf" />
+        <item itemvalue="JUnit.CompletableFutrueTest.testComplete" />
+        <item itemvalue="JUnit.CompletableFutrueTest.testHandle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b8f51c6-4633-4039-8525-a1754aeb9f0f" name="Default Changelist" comment="" />
+      <created>1636024117158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636024117158</updated>
+      <workItem from="1636024120505" duration="3052000" />
+      <workItem from="1636086682104" duration="6296000" />
+      <workItem from="1636514384265" duration="11218000" />
+      <workItem from="1636890055233" duration="13642000" />
+      <workItem from="1636950400602" duration="21783000" />
+      <workItem from="1637399688449" duration="7981000" />
+      <workItem from="1637905293437" duration="70945000" />
+      <workItem from="1638590640367" duration="18795000" />
+      <workItem from="1638889837834" duration="3472000" />
+      <workItem from="1645886013701" duration="1974000" />
+      <workItem from="1646987189665" duration="418000" />
+      <workItem from="1646987735106" duration="808000" />
+      <workItem from="1678614928820" duration="3158000" />
+      <workItem from="1678716878061" duration="26000" />
+      <workItem from="1678756196362" duration="443000" />
+      <workItem from="1678790418785" duration="68000" />
+      <workItem from="1678843389299" duration="8211000" />
+      <workItem from="1678869308281" duration="675000" />
+      <workItem from="1710564129260" duration="8324000" />
+      <workItem from="1710577145424" duration="342000" />
+      <workItem from="1710577497439" duration="237000" />
+      <workItem from="1710580073224" duration="4218000" />
+      <workItem from="1710731982507" duration="6871000" />
+      <workItem from="1710749971192" duration="5416000" />
+      <workItem from="1710831156614" duration="2907000" />
+      <workItem from="1710935337994" duration="2794000" />
+      <workItem from="1710984961019" duration="12000" />
+      <workItem from="1711419906430" duration="14884000" />
+      <workItem from="1711501488217" duration="2488000" />
+      <workItem from="1711522209384" duration="7070000" />
+      <workItem from="1711539950011" duration="830000" />
+      <workItem from="1711624882030" duration="12739000" />
+      <workItem from="1711691228912" duration="31000" />
+      <workItem from="1716136072285" duration="3155000" />
+      <workItem from="1716513508474" duration="20775000" />
+      <workItem from="1716619282933" duration="11551000" />
+      <workItem from="1716703935890" duration="15000" />
+      <workItem from="1719456952443" duration="836000" />
+      <workItem from="1724203605119" duration="1803000" />
+      <workItem from="1735212774859" duration="150000" />
+      <workItem from="1764921415772" duration="87000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
